@@ -1,4 +1,4 @@
-package introduction_to_algorithms;
+package chapter1.introduction_to_algorithms;
 
 public class BinarySearch {
 
