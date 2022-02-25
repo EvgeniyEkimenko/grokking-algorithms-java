@@ -1,2 +1,2 @@
-# Grokking Algorithms Java
-### My algorithm implementations from the book [Grokking Algorithms](https://www.manning.com/bhargava).
+# Grokking Algorithms
+### My algorithm implementations from the book [Grokking Algorithms](https://www.manning.com/bhargava)
