@@ -9,22 +9,17 @@ import java.util.stream.Stream;
 public class QuickSort {
 
     public static void main(String[] args) {
-
     }
 
     public static List<Integer> quickSort(List<Integer> list) {
         if (list.size() < 2) {
-            // base case, arrays with 0 or 1 element are already "sorted"
             return list;
         } else {
-            // recursive case
             Integer pivot = list.get(0);
 
-            // sub-array of all the elements less than the pivot
             List<Integer> less = list.stream().skip(1).filter(el -> el <= pivot)
                     .collect(Collectors.toList());
 
-            // sub-array of all the elements greater than the pivot
             List<Integer> greater = list.stream().skip(1).filter(el -> el > pivot)
                     .collect(Collectors.toList());
 
